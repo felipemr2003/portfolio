@@ -1,0 +1,72 @@
+:root{
+    --cor-primaria: #2C3639;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #A27B5C;
+    --font-principal: 'Krona One', sans-serif;
+    --cor-alura: #22d4fd;
+    --cor-uvv: yellowgreen;
+}
+
+.corfundo__pagina2{
+    background-color: var(--cor-primaria);
+}
+
+.apresentacao__conteudo__texto2{
+    font-size: 18px;
+    font-family: var(--font-principal);
+}
+
+.apresentacao__conteudo__titulo2{
+    font-family: var(--font-principal);
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+.secao__pagina2{
+    display: flex;
+    flex-direction: column;
+    padding: 7% 0% 0% 15%;
+}
+
+.entradacertificado__pagina2{
+    font-family: var(--font-principal);
+    font-size: 12px;
+    padding: 1% 0% 0% 5%;
+}
+
+.lista__pagina2{
+    font-family: var(--font-principal);
+    font-size: 15px;
+    padding: 1% 0% 0% 5%;
+}
+
+.titulo-destaque__pagina2{
+    color: var(--cor-alura);
+    font-size: 10px;
+}
+
+.titulo-destaque__pagina2uvv{
+    color: var(--cor-uvv);
+    font-size: 10px;
+}
+
+.escrita_menor__pagina2{
+    font-size: 8px;
+    font-family: var(--font-principal);
+    padding: 0% 0% 0% 5%;
+}
+
+.imagens__pagina2{
+    display: flex;
+}
+
+.imagens__pagina2__tamanho{
+    width: 200px;
+    padding: 1% 0% 0% 19%;
+    margin-bottom: 100px;
+}
+
+.imagens__pagina2__tamanho:hover{
+    transform: scale(1.2);
+    transition: transform 500ms;
+}
